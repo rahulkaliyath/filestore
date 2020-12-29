@@ -1,7 +1,6 @@
 from datetime   import datetime ,timedelta
 from utils import  helper
 from utils.file_handler import *
-from values import val
 from  threading import Thread, Lock
 import time
 import json
@@ -9,7 +8,7 @@ import pickle
 import os
 import sys
 
-sys.stdout = open('output.txt', 'w')
+# sys.stdout = open('output.txt', 'w')
 lock = Lock()
 
 FILE_PATH = 'file-store'

@@ -15,8 +15,8 @@ File store is a local key-value storage system which provides operations such as
 * Make sure you have <span style="font-size:larger;">[python3](https://www.python.org/downloads/) </span> installed in your system
 * Clone the repository and cd into `filestore`
     ``` bash 
-        git `filestore`.git 
-        cd `filestore` 
+        git clone https://github.com/rahulkaliyath/filestore.git
+        cd filestore 
      ```
 * ``` python
     pip install -r requirements.txt
@@ -26,7 +26,7 @@ File store is a local key-value storage system which provides operations such as
 
 * Include header files to import `filestore`. If not using inside the `filestore` directory set the path for `filestore` accordingly
     ``` python 
-    from filestore import filestore
+    from filestore import FileStore
     ```
 * Instantiate an object for `filestore` class
     ``` python
