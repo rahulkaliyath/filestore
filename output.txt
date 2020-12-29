@@ -1,0 +1,39 @@
+Created a new File Store in 'H:\Projects\freshworks-key-value-store\file-store\store.pickle'
+[CREATE OPERATION]: Creating New Key 'test'
+[CREATE OPERATION SUCCESS]: Created New Key 'test'
+[CREATE OPERATION]: Creating New Key 'tester'
+[CREATE OPERATION SUCCESS]: Created New Key 'tester'
+Accessing Existing File Store from 'H:\Projects\freshworks-key-value-store\file-store\store.pickle'
+[CREATE OPERATION]: Creating New Key 'test'
+[CREATE OPERATION FAILED]: Key 'test'  already exists
+Accessing Existing File Store from 'H:\Projects\freshworks-key-value-store\file-store\store.pickle'
+[DELETE OPEARATION]: Deleting key 'tester'
+[DELETE OPERATION SUCCESS]
+Accessing Existing File Store from 'H:\Projects\freshworks-key-value-store\file-store\store.pickle'
+[DELETE OPEARATION]: Deleting key 'tester'
+[DELETE OPERATION FAILED]: KEY NOT FOUND. Key might be deleted or expired
+Accessing Existing File Store from 'H:\Projects\freshworks-key-value-store\file-store\store.pickle'
+Accessing Existing File Store from 'H:\Projects\freshworks-key-value-store\file-store\store.pickle'
+[READ OPERATION]: Reading Key 'test'
+[READ OPERATION SUCCESS]
+Accessing Existing File Store from 'H:\Projects\freshworks-key-value-store\file-store\store.pickle'
+[READ OPERATION]: Reading Key 'test'
+[READ OPERATION FAILED]: Key [test] Expired
+Accessing Existing File Store from 'H:\Projects\freshworks-key-value-store\file-store\store.pickle'
+[CREATE OPERATION]: Creating New Key 'test'
+[CREATE OPERATION SUCCESS]: Created New Key 'test'
+[CREATE OPERATION]: Creating New Key 'test'
+[CREATE OPERATION FAILED]: Key 'test'  already exists
+Accessing Existing File Store from 'H:\Projects\freshworks-key-value-store\file-store\store.pickle'
+[CREATE OPERATION]: Creating New Key 'test-thread'
+[CREATE OPERATION SUCCESS]: Created New Key 'test-thread'
+Accessing Existing File Store from 'H:\Projects\freshworks-key-value-store\file-store\store.pickle'
+[DELETE OPEARATION]: Deleting key 'test'
+[DELETE OPERATION SUCCESS]
+[DELETE OPEARATION]: Deleting key 'test'
+[DELETE OPERATION FAILED]: KEY NOT FOUND. Key might be deleted or expired
+Accessing Existing File Store from 'H:\Projects\freshworks-key-value-store\file-store\store.pickle'
+[READ OPERATION]: Reading Key 'test-thread'
+[READ OPERATION SUCCESS]
+[READ OPERATION]: Reading Key 'test-thread'
+[READ OPERATION SUCCESS]
